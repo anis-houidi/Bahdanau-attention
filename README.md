@@ -4,7 +4,7 @@ Encoder: Processes the input sequence to generate a sequence of hidden states.
 Attention Mechanism: Computes a context vector dynamically based on the decoder's current state and encoder hidden states.  
 Decoder: Uses the context vector to produce the next output token.  
 
-![BA](rm/ba.png)
+![BA](rm/bahdanau_1.png)
 
 # Encoder  
 Embedding Layer: Converts input tokens into dense vectors of fixed size (embedding_dim).  

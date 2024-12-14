@@ -4,7 +4,7 @@ Encoder: Processes the input sequence to generate a sequence of hidden states.
 Attention Mechanism: Computes a context vector dynamically based on the decoder's current state and encoder hidden states.  
 Decoder: Uses the context vector to produce the next output token.  
 
-![BA](rm/bahdanau_1.png)
+
 
 # Encoder  
 Embedding Layer: Converts input tokens into dense vectors of fixed size (embedding_dim).  
@@ -24,6 +24,8 @@ Score Calculation: Applies tanh to combine the decoder's hidden state with encod
 Softmax Attention Weights: Normalized weights indicate the importance of each time step in the input sequence.  
 Context Vector: A weighted sum of encoder outputs.  
   
+![BA](rm/bahdanau_1.png)
+
 Output:  
 
 Context vector of shape (batch_size, hidden_size).  
